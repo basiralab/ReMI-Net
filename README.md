@@ -59,25 +59,28 @@ In order to use our framework, you need to have:
 ReMI-Net output is a list of forecasted CBTs shaped as (#timepoints, #ROIs, #ROIs).
 
 
-# YouTube videos to install and run the code and understand how ReMI-Net works
-
-To install and run ReMI-Net, check the following YouTube video:
-
+# YouTube videos to understand how ReMI-Net works
 
 To learn about how ReMI-Net works, check the following YouTube videos:
 
-
-# Related references
-
-
-
+https://youtu.be/tthw51zlxXo
 
 # Citation
 
+```latex
+@inproceedings{demirbilek2021recurrent,
+  title={Recurrent Multigraph Integrator Network for Predicting the Evolution of Population-Driven Brain Connectivity Templates},
+  author={Demirbilek, Oytun and Rekik, Islem},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={584--594},
+  year={2021},
+  organization={Springer}
+}
+```
 
 # ReMI-Net on arXiv
 
-
+The paper is available at https://arxiv.org/abs/2110.03453
 
 # Acknowledgement
 
