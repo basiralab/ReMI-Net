@@ -19,7 +19,7 @@ def antiVectorize(vec, m):
 
 # CV splits
 def get_nfold_split(X, number_of_folds, current_fold_id):
-    kf = KFold(n_splits=number_of_folds)
+    kf = KFold(n_splits=number_of_folds,shuffle=True)
     split_indices = kf.split(range(X.shape[0]))
     train_indices, test_indices = [(list(train), list(test)) for train, test in split_indices][current_fold_id]
     #Split train and test
